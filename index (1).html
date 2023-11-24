@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chocolate</title>
+  <link rel="stylesheet" href="style (1).css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="title">Build Your Custom Pack of 8 Chocolates</div>
+    <div class="products">
+      <!-- Add your products here -->
+      <div class="product" data-name="Suger free chocolate" data-price="50">
+        <img src="Sugerfree chocolate.png" alt="Suger free chocolate">
+        <p>Suger free chocolate</p>
+        <span>₹50</span>
+        <input type="number" min="0" max="8" value="0" onchange="updateSummary()">
+      </div>
+      <div class="product" data-name="Milk Chocolate" data-price="40">
+        <img src="White chocolate.png" alt="Milk Chocolate">
+        <p>white chocolate</p>
+        <span>₹40</span>
+        <input type="number" min="0" max="8" value="0" onchange="updateSummary()">
+      </div>
+      <div class="product" data-name="Super fruit chocolate" data-price="60">
+        <img src="super fruit chocolate.png" alt="Super fruit chocolate">
+        <p>Super fruit chocolate</p>
+        <span>₹60</span>
+        <input type="number" min="0" max="8" value="0" onchange="updateSummary()">
+      </div>
+      <div class="product" data-name="Choconut" data-price="70">
+        <img src="Choconut.png" alt="choconut">
+        <p>Choconut</p>
+        <span>₹70</span>
+        <input type="number" min="0" max="8" value="0" onchange="updateSummary()">
+      </div>
+      <div class="product" data-name="Caramel chocolate" data-price="80">
+        <img src="Caramel chocolate.png" alt="Caramel chocolate">
+        <p>Caramel chocolate</p>
+        <span>₹80</span>
+        <input type="number" min="0" max="8" value="0" onchange="updateSummary()">
+      </div>
+      <div class="product" data-name="Darkfruit chocolate" data-price="90">
+        <img src="Dark fruit chocolate.png" alt="Darkfruit chocolate">
+        <p>Caramel</p>
+        <span>₹90</span>
+        <input type="number" min="0" max="8" value="0" onchange="updateSummary()">
+      </div>
+    </div>
+    <div class="summary">
+      <h3>Your Custom Pack</h3>
+      <ul id="summary-items">
+        <!-- The summary items will be added here -->
+      </ul>
+      <p id="summary-total">Total: ₹0</p>
+    </div>
+  </div>
+
+
+
+  <script src="script (1).js"></script>
+</body>
+
+</html>
